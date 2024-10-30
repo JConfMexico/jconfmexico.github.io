@@ -14,3 +14,22 @@ cover_dimming_class = "bg-black-60"
 
 [contact]
 email = "jconfmex@gmail.com"
+
+[ananke.social]
+[ananke.social.share]
+networks = ["email", "x-twitter", "facebook", "linkedin"]
+
+[ananke.social.follow]
+networks = ["github", "x-twitter", "facebook", "linkedin"]
+
+[ananke.social.github]
+username = "JConfMexico"
+
+[ananke.social.x-twitter]
+username = "jconfmexico"
+[ananke.social.facebook]
+username = "JConfMexico"
+profilelink = "https://www.facebook.com/JConfMexico`"
+
+[ananke.social.linkedin]
+profilelink = "https://www.linkedin.com/company/jconfmexico"
