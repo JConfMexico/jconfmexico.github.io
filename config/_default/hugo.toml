@@ -1,0 +1,21 @@
+baseURL = 'https://jconfmexico.github.io/'
+languageCode = 'en-US'
+title = 'JConf Mexico'
+theme = 'ananke'
+disableLanguages = ["ananke"]
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+# googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages]
+[languages.en]
+languageName = 'English'
+languageCode = 'en-US'
+weight = 1
+
+[languages.es]
+languageCode = 'es-MX'
+languageName = 'Español'
+weight = 2

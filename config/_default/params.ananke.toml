@@ -1,0 +1,18 @@
+[social]
+[social.share]
+networks = ["email", "x-twitter", "facebook", "linkedin"]
+
+[social.follow]
+networks = ["github", "x-twitter", "facebook", "linkedin"]
+
+[social.github]
+username = "JConfMexico"
+
+[social.x-twitter]
+username = "jconfmexico"
+[social.facebook]
+username = "JConfMexico"
+profilelink = "https://www.facebook.com/JConfMexico`"
+
+[social.linkedin]
+profilelink = "https://www.linkedin.com/company/jconfmexico"
