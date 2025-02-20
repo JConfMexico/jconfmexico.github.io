@@ -12,6 +12,14 @@ featured_image_class = "cover bg-top"
 cover_dimming_class = "bg-black-60"
 # recent_posts_number = 3
 
+eventDate = "June 7th, 2025"
+eventAddress = "Av. Gral Ramón Corona No 2514"
+eventLocation = "Colonia Nuevo México, 45201 Zapopan, Jal., Mexico"
+homeTitle = "JConf Mexico: Building Together"
+homeSubtitle = "A Java Community Conference"
+homeTagline = "by Communities for Communities"
+homeDescription = "Join us for a friendly gathering of Java enthusiasts where everyon
+
 [contact]
 email = "jconfmex@gmail.com"
 

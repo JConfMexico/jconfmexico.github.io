@@ -1,0 +1,27 @@
+{{ define "main" }}
+    {{ partial "banner.html" . }}
+    
+    <!-- Start home-video Area -->
+    <section class="home-video-area">
+        <div class="container-fluid">
+            <div class="row justify-content-end align-items-center">
+                <div class="col-lg-4 no-padding about-right">
+                    <p class="top-title">{{ .Site.Params.homeTitle }}</p>
+                    <h1>{{ .Site.Params.homeSubtitle }}</h1>
+                    <p><span>{{ .Site.Params.homeTagline }}</span></p>
+                    <p>
+                        {{ .Site.Params.homeDescription }}
+                    </p>
+                </div>
+                <section class="video-area col-lg-6 no-padding">
+                    <div class="overlay overlay-bg"></div>
+                    <div class="containers">
+                        <div class="video-content">
+                            <img class="img-fluid" src="{{ "img/about1.jpg" | relURL }}" alt="">
+                        </div>
+                    </div>
+                </section>                                      
+            </div>
+        </div>  
+    </section>
+{{ end }}

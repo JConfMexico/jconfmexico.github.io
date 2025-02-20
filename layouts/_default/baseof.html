@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="{{ "img/fav.png" | relURL }}">
+    <meta name="author" content="codepixer">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="UTF-8">
+    <title>{{ .Site.Title }}</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ "css/linearicons.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/font-awesome.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/bootstrap.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/magnific-popup.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/nice-select.css" | relURL }}">          
+    <link rel="stylesheet" href="{{ "css/animate.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/owl.carousel.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+</head>
+<body>
+    {{ partial "header.html" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
+
+    <!-- Scripts -->
+    <script src="{{ "js/vendor/jquery-2.2.4.min.js" | relURL }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="{{ "js/vendor/bootstrap.min.js" | relURL }}"></script>
+    <script src="{{ "js/easing.min.js" | relURL }}"></script>
+    <script src="{{ "js/hoverIntent.js" | relURL }}"></script>
+    <script src="{{ "js/superfish.min.js" | relURL }}"></script>
+    <script src="{{ "js/jquery.ajaxchimp.min.js" | relURL }}"></script>
+    <script src="{{ "js/jquery.magnific-popup.min.js" | relURL }}"></script>
+    <script src="{{ "js/owl.carousel.min.js" | relURL }}"></script>
+    <script src="{{ "js/jquery.sticky.js" | relURL }}"></script>
+    <script src="{{ "js/jquery.nice-select.min.js" | relURL }}"></script>
+    <script src="{{ "js/parallax.min.js" | relURL }}"></script>
+    <script src="{{ "js/mail-script.js" | relURL }}"></script>
+    <script src="{{ "js/main.js" | relURL }}"></script>
+</body>
+</html>
