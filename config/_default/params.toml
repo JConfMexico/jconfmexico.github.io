@@ -1,16 +1,10 @@
 subtitle = "JConf Mexico 2025"
-# text_color = ""
 author = "JConf Mexico"
-# favicon = ""
 site_logo = "/img/logo_orange.png"
 description = "The all JVM biggest conference... IN MEXICO"
-# choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
 background_color_class = "bg-navy"
-# choose fitting and alignment styles for the featured image using Tachyons classes such as "cover|contain" for fitting and "bg-top|bg-center|bg-bottom" for alignment, or add any other class space-separated to customize further
 featured_image_class = "cover bg-top"
-# choose a color dimming class for the page or site header from any on this page: https://tachyons.io/docs/themes/skins/, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
 cover_dimming_class = "bg-black-60"
-# recent_posts_number = 3
 
 eventDate = "June 7th, 2025"
 eventAddress = "Av. Gral Ramón Corona No 2514"
@@ -18,7 +12,7 @@ eventLocation = "Colonia Nuevo México, 45201 Zapopan, Jal., Mexico"
 homeTitle = "JConf Mexico: Building Together"
 homeSubtitle = "A Java Community Conference"
 homeTagline = "by Communities for Communities"
-homeDescription = "Join us for a friendly gathering of Java enthusiasts where everyon
+homeDescription = "Join us for a friendly gathering of Java enthusiasts where everyone learns from each other. Share knowledge, discover new possibilities, and connect with fellow developers in an inclusive space that celebrates our growing Mexican Java community."
 
 [contact]
 email = "jconfmex@gmail.com"
@@ -35,6 +29,7 @@ username = "JConfMexico"
 
 [ananke.social.x-twitter]
 username = "jconfmexico"
+
 [ananke.social.facebook]
 username = "JConfMexico"
 profilelink = "https://www.facebook.com/JConfMexico"
