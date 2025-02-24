@@ -19,15 +19,15 @@ email = "jconfmex@gmail.com"
 
 [ananke.social]
 [ananke.social.share]
-networks = ["email", "x-twitter", "facebook", "linkedin"]
+networks = ["email", "xtwitter", "facebook", "linkedin"]
 
 [ananke.social.follow]
-networks = ["github", "x-twitter", "facebook", "linkedin"]
+networks = ["github", "xtwitter", "facebook", "linkedin"]
 
 [ananke.social.github]
 username = "JConfMexico"
 
-[ananke.social.x-twitter]
+[ananke.social.xtwitter]
 username = "jconfmexico"
 
 [ananke.social.facebook]

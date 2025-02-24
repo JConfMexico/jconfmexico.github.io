@@ -11,7 +11,6 @@
             </div>
             <div class="col-lg-5  col-md-6 col-sm-6">
                 <div class="single-footer-widget">
-                    <!-- Newsletter section removed as per original -->
                 </div>
             </div>                      
             <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
@@ -19,21 +18,21 @@
                     <h6>Follow Us</h6>
                     <p>Let us be social</p>
                     <div class="footer-social d-flex align-items-center">
-                        {{ with .Site.Params.ananke.social.facebook }}
-                        <a href="{{ .profilelink }}"><i class="fa fa-facebook"></i></a>
+                        {{ if isset .Site.Params.ananke.social "facebook" }}
+                        <a href="{{ .Site.Params.ananke.social.facebook.profilelink }}"><i class="fa fa-facebook"></i></a>
                         {{ end }}
-                        {{ with .Site.Params.ananke.social.x-twitter }}
-                        <a href="https://twitter.com/{{ .username }}"><i class="fa fa-twitter"></i></a>
+                        {{ if isset .Site.Params.ananke.social "xtwitter" }}
+                        <a href="https://twitter.com/{{ .Site.Params.ananke.social.xtwitter.username }}"><i class="fa fa-twitter"></i></a>
                         {{ end }}
-                        {{ with .Site.Params.ananke.social.linkedin }}
-                        <a href="{{ .profilelink }}"><i class="fa fa-linkedin"></i></a>
+                        {{ if isset .Site.Params.ananke.social "linkedin" }}
+                        <a href="{{ .Site.Params.ananke.social.linkedin.profilelink }}"><i class="fa fa-linkedin"></i></a>
                         {{ end }}
-                        {{ with .Site.Params.ananke.social.github }}
-                        <a href="https://github.com/{{ .username }}"><i class="fa fa-github"></i></a>
+                        {{ if isset .Site.Params.ananke.social "github" }}
+                        <a href="https://github.com/{{ .Site.Params.ananke.social.github.username }}"><i class="fa fa-github"></i></a>
                         {{ end }}
                     </div>
                 </div>
             </div>                          
         </div>
     </div>
-</footer>	
+</footer>
