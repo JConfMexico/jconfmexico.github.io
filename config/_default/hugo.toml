@@ -1,6 +1,6 @@
 baseURL = 'https://jconfmexico.github.io/'
 languageCode = 'en-US'
-title = 'JConf Mexico'
+title = 'JConf Méx'
 theme = 'ananke'
 disableLanguages = ["ananke"]
 
