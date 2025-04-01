@@ -3086,3 +3086,71 @@ h6 {
     display: block;
     margin: 0 auto 10px; 
 }
+
+#organizers {
+    background: #111; 
+    padding: 100px 0;
+    text-align: center;
+}
+
+#organizers .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#organizers .section-subtitle {
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+#organizers .single-speaker {
+    background: #222;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#organizers .speaker-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#organizers .speaker-img .image-container {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+#organizers .speaker-info {
+    text-align: left;
+}
+
+#organizers .speaker-info h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#organizers .speaker-info p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+#organizers .social-links a {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+#organizers .social-links a:hover {
+    color: #f39c12;
+}
