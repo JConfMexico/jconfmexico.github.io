@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ "css/bootstrap.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/magnific-popup.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/nice-select.css" | relURL }}">          
@@ -23,7 +23,9 @@
 <body>
     {{ partial "header.html" . }}
     {{ block "main" . }}{{ end }}
-    {{ partial "organizers.html" . }} 
+    {{ partial "speakers.html" . }}
+    {{ partial "sponsors.html" . }}
+    {{ partial "organizers.html" . }}
     {{ partial "footer.html" . }}
 
     <!-- Scripts -->
