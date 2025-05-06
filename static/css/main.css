@@ -3090,7 +3090,7 @@ h6 {
 }
 
 #organizers {
-    background: #111; 
+    background: #fff; 
     padding: 100px 0;
     text-align: center;
 }
@@ -3099,13 +3099,13 @@ h6 {
     font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #fff;
+    color: #111;
     margin-bottom: 10px;
 }
 
 #organizers .section-subtitle {
     font-size: 18px;
-    color: #ddd;
+    color: #111;
     margin-bottom: 30px;
 }
 
@@ -3276,5 +3276,72 @@ h6 {
     }
     .sponsor-logo {
         margin: 10px 10px; /* Less spacing on small screens */
+    }
+}
+
+/* --- Allied Communities Section --- */
+   
+.communities-area {
+    background-color: #121212;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #fff;
+}
+
+.communities-area .section-title {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.communities-area .section-subtitle {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.community-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.community-logo-container {
+    display: inline-block;  /* Change: inline-block */
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;      /* Center the image */
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.community-logo-container:hover {
+    opacity: 1;
+}
+
+.community-logo {
+    max-height: 200px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: 0 auto;       /* Center the image */
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .community-logos {
+        justify-content: center;
+    }
+    .community-logo-container {
+        margin: 15px;
+        padding: 8px;
+    }
+    .community-logo {
+        max-height: 80px;
+        max-width: 150px;
     }
 }
