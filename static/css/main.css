@@ -3178,12 +3178,20 @@ h6 {
     margin: 15px 0
 }
 
+.speaker-card h3 {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #ed8b00ff;
+    margin-bottom: 15px;
+}
+
 .speaker-card h6 {
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 3px;
     color: #ed8b00ff;
-    margin-bottom: 5
+    margin-bottom: 5px;
 }
 
 .speaker-img {
@@ -3204,6 +3212,80 @@ h6 {
     text-align: left;
     color: #fff;
     flex-grow: 1;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 900px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.flip-card-front {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.flip-card-back {
+    background-color: #1e1e1e; 
+    color: white;
+    transform: rotateY(180deg);
+}
+
+flip-card-front .speaker-info {
+    padding: 20px; 
+}
+
+flip-card-front .speaker-img {
+    height: auto; 
+}
+
+flip-card-front .speaker-img img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.btn-flip {
+    border-radius: 5px;  
+    color: #fff;
+    background: #ed8b00ff;
+    border: 1px solid transparent;
+    padding: 0 30px; 
+    line-height: 40px; 
+    font-size: .8em;   
+    font-weight: 500;  
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 15px;
+}
+
+.btn-flip:hover {
+    color: #ed8b00ff;
+    border: 1px solid #ed8b00ff;
+    background: #fff;
 }
 
 /* --- Sponsors Section --- */
