@@ -3336,7 +3336,7 @@ flip-card-front .speaker-img img {
 
 /* Tier-specific logo sizes */
 .diamond-logos .sponsor-logo {
-    max-width: 250px; /* Largest logos */
+    max-width: 300px; /* Largest logos */
 }
 
 .gold-logos .sponsor-logo {
@@ -3405,8 +3405,8 @@ flip-card-front .speaker-img img {
 }
 
 .community-logo {
-    max-height: 200px;
-    max-width: 300px;
+    max-height: 150px;
+    max-width: 250px;
     height: auto;
     width: auto;
     display: block;
