@@ -1,0 +1,75 @@
+<section id="schedule" class="section-gap">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Agenda</h2>
+      <p>Consulta los horarios por sala</p>
+    </div>
+
+    {{ $agenda := .Site.Data.schedule.Sat }}
+
+    {{ $rooms := slice }}
+    {{ range $agenda }}
+      {{ $rooms = $rooms | append .track }}
+    {{ end }}
+    {{ $rooms = uniq $rooms }}
+
+    <div class="table-wrap">
+      <table class="table table-bordered">
+        <thead class="thead-light">
+          <tr>
+            <th>Hora</th>
+            {{ range $rooms }}
+              <th>{{ . }}</th>
+            {{ end }}
+          </tr>
+        </thead>
+        <tbody>
+          {{ $horarios := slice }}
+          {{ range $agenda }}
+            {{ range .sessions }}
+              {{ $horarios = $horarios | append .hora }}
+            {{ end }}
+          {{ end }}
+          {{ $horarios = uniq $horarios }}
+
+          {{ range $horario := $horarios }}
+          <tr>
+            <td class="fw500">{{ $horario }}</td>
+
+            {{ range $room := $rooms }}
+              {{ $contenido := "" }}
+              {{ range $agenda }}
+                {{ if eq .track $room }}
+                  {{ range .sessions }}
+                    {{ if eq .hora $horario }}
+                        {{ $lowerTitulo := lower .titulo }}
+                        {{ $clase := "" }}
+
+                        {{ if in $lowerTitulo "registro" }}
+                            {{ $clase = "cell-registro" }}
+                        {{ else if in $lowerTitulo "inauguración" }}
+                            {{ $clase = "cell-inauguracion" }}
+                        {{ else if in $lowerTitulo "lunch" }}
+                            {{ $clase = "cell-lunch" }}
+                        {{ else if in $lowerTitulo "clausura" }}
+                            {{ $clase = "cell-clausura" }}
+                        {{ else if in $lowerTitulo "networking" }}
+                            {{ $clase = "cell-networking" }}
+                        {{ end }}
+
+                        {{ $contenido = printf "<div class='%s'><strong>%s</strong><br/><em>%s</em></div>" $clase .titulo .speaker }}
+                     {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+              <td>{{
+                safeHTML $contenido
+              }}</td>
+            {{ end }}
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

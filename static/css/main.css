@@ -3427,3 +3427,44 @@ flip-card-front .speaker-img img {
         max-width: 150px;
     }
 }
+
+
+.cell-registro {
+  background-color: #007396; /* Azul Java */
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.cell-inauguracion {
+  background-color: #ed8b00; /* Naranja JConf */
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.cell-lunch {
+  background-color: #27ae60; /* Verde */
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.cell-clausura {
+  background-color: #c0392b; /* Rojo oscuro */
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.cell-networking {
+  background-color: #8e44ad; /* Púrpura */
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: left;
+}
