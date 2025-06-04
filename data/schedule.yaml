@@ -65,8 +65,8 @@ Sat:
     speaker: 'Victor Jimenez'
   - hora: 12:00pm - 12:45pm
     lugar: Room 2
-    speaker: Dinorah Tovar
-    titulo: Kotlin for Data Science
+    speaker: 'Kim Escobedo'
+    titulo: JConf Team TBA
   - hora: 01:00pm - 01:45pm
     lugar: Room 2
     speaker: Miguel Angel Ramos Guzmán
@@ -103,8 +103,8 @@ Sat:
     titulo: Registro
   - hora: 11:15am - 11:55am
     lugar: Room 3
-    speaker: ''
-    titulo: JConf Team TBA
+    speaker: Dinorah Tovar
+    titulo: Kotlin for Data Science
   - hora: 12:00pm - 12:45pm
     lugar: Room 3
     speaker: Yaslie Chávez
