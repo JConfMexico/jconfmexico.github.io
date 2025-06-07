@@ -1,140 +1,140 @@
 Sat:
 - sessions:
   - hora: 09:00am - 10:05am
-    lugar: Room 1
+    lugar: Class
     speaker: ''
     titulo: Registro
   - hora: 10:00am - 10:20am
-    lugar: Room 1
+    lugar: Class
     speaker: ''
     titulo: Inauguración
   - hora: 10:15am - 10:45am
-    lugar: Room 1
+    lugar: Class
     speaker: ''
     titulo: Keynote by Zillow
   - hora: 10:45am - 11:15am
-    lugar: Room 1
+    lugar: Class
     speaker: ''
     titulo: Organizacion de Sala
   - hora: 11:15am - 11:55am
-    lugar: Room 1
+    lugar: Class
     speaker: Jose Luis Somilleda Ventura
     titulo: 'Kotlin y JVM: Legibilidad que Enamora, Bytecode que Duele'
   - hora: 12:00pm - 12:45pm
-    lugar: Room 1
+    lugar: Class
     speaker: Daniel Gongora
     titulo: Anatomy of the JVM
   - hora: 01:00pm - 01:45pm
-    lugar: Room 1
+    lugar: Class
     speaker: Frank Zeyda
     titulo: 'Beyond Testing: How to be sure your Java program *really* works!'
   - hora: 01:45pm - 03:00pm
-    lugar: Room 1
+    lugar: Class
     speaker: ''
     titulo: Lunch Break
   - hora: 03:00pm - 03:45pm
-    lugar: Room 1
+    lugar: Class
     speaker: Rolando Carrasco
     titulo: Verdades y Mitos de los MCP Servers. Vamos a crear uno en Java.
   - hora: 04:00pm - 04:45pm
-    lugar: Room 1
+    lugar: Class
     speaker: Gerardo Lucas
     titulo: El Impacto de la Nube en el Desarrollo de Software con Java
   - hora: 05:00pm - 05:45pm
-    lugar: Room 1
+    lugar: Class
     speaker: Domingo Suarez Torres
     titulo: 'Arquitecturas Modernas en Java: Hacia Servicios Escalables y Flexibles'
   - hora: 06:05pm - 06:35pm
-    lugar: Room 3
+    lugar: Bytecode
     speaker: ''
     titulo: Clausura
   - hora: 06:35pm - 09:35pm
-    lugar: Room 3
+    lugar: Bytecode
     speaker: ''
     titulo: Networking
-  track: Room 1
+  track: Class
 - sessions:
   - hora: 09:00am - 10:05am
-    lugar: Room 1
+    lugar: Class
     speaker: ''
     titulo: Registro
   - hora: 11:15am - 11:55am
-    lugar: Room 2
+    lugar: Source
     speaker: ''
     titulo: Optimizing the containers on behalf of your Java applications
     speaker: 'Victor Jimenez'
   - hora: 12:00pm - 12:45pm
-    lugar: Room 2
+    lugar: Source
     speaker: 'Kim Escobedo'
     titulo: JConf Team TBA
   - hora: 01:00pm - 01:45pm
-    lugar: Room 2
+    lugar: Source
     speaker: Miguel Angel Ramos Guzmán
     titulo: Java to scala, your functions don’t lie
   - hora: 01:45pm - 03:00pm
-    lugar: Room 2
+    lugar: Source
     speaker: ''
     titulo: Lunch Break
   - hora: 03:00pm - 03:45pm
-    lugar: Room 2
+    lugar: Source
     speaker: Jesús Aguirre
     titulo: 'Helidon 4 en Kubernetes: Lecciones Reales, Retos y Casos de Uso en Producción'
   - hora: 04:00pm - 04:45pm
-    lugar: Room 2
+    lugar: Source
     speaker: Jaime Omar Montero Aguilar
     titulo: 'Shift Left Security with DevSecOps: From Code to Cloud'
   - hora: 05:00pm - 05:45pm
-    lugar: Room 2
+    lugar: Source
     speaker: Gustavo A. Bonilla
     titulo: Streamlining your web testing with Playwright and JUnit
   - hora: 06:05pm - 06:35pm
-    lugar: Room 3
+    lugar: Bytecode
     speaker: ''
     titulo: Clausura
   - hora: 06:35pm - 09:35pm
-    lugar: Room 3
+    lugar: Bytecode
     speaker: ''
     titulo: Networking
-  track: Room 2
+  track: Source
 - sessions:
   - hora: 09:00am - 10:05am
-    lugar: Room 1
+    lugar: Class
     speaker: ''
     titulo: Registro
   - hora: 11:15am - 11:55am
-    lugar: Room 3
+    lugar: Bytecode
     speaker: Dinorah Tovar
     titulo: Kotlin for Data Science
   - hora: 12:00pm - 12:45pm
-    lugar: Room 3
+    lugar: Bytecode
     speaker: Yaslie Chávez
     titulo: 'El debug definitvo: salir de la zona de confort'
   - hora: 01:00pm - 01:45pm
-    lugar: Room 3
+    lugar: Bytecode
     speaker: Isaac Ruiz Guerra
     titulo: OpenTelemetry para todos.
   - hora: 01:45pm - 03:00pm
-    lugar: Room 2
+    lugar: Source
     speaker: ''
     titulo: Lunch Break
   - hora: 03:00pm - 03:45pm
-    lugar: Room 3
+    lugar: Bytecode
     speaker: Eddú Meléndez Gonzales
     titulo: Productividad del desarrollador para aplicaciones GenAI
   - hora: 04:00pm - 04:45pm
-    lugar: Room 3
+    lugar: Bytecode
     speaker: Enrique Zamudio
     titulo: '30 años programando: lecciones aprendidas'
   - hora: 05:00pm - 05:45pm
-    lugar: Room 3
+    lugar: Bytecode
     speaker: Joel Humberto Gomez Paredes
     titulo: Patrones de performance web para backends
   - hora: 06:05pm - 06:35pm
-    lugar: Room 3
+    lugar: Bytecode
     speaker: ''
     titulo: Clausura
   - hora: 06:35pm - 09:35pm
-    lugar: Room 3
+    lugar: Bytecode
     speaker: ''
     titulo: Networking
-  track: Room 3
+  track: Bytecode
